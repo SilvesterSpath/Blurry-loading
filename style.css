@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('./img/vertex.jpg') no-repeat, center, center/cover;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: calc(100vw + 40px);
+  height: calc(100vh + 40px);
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-text {
+  font-size: 30px;
+  color: black;
+}
